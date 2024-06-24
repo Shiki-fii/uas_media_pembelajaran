@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Pembelajaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showPage('home')">Halaman Utama</a></li>
+            <li><a href="#" onclick="showPage('materi')">Materi Kalor</a></li>
+            <li><a href="#" onclick="showPage('kuis')">Kuis</a></li>
+        </ul>
+    </nav>
+
+    <div id="home" class="page active text-center">
+        <h1>Selamat Datang di Media Pembelajaran IPA</h1>
+        <img src="ipa.png" alt="Pelajaran IPA" class="main-image">
+    </div>
+
+    <div id="materi" class="page floating-box">
+        <h1>Materi Kalor</h1>
+        <h2>Pengertian Kalor</h2>
+        <p>Kalor adalah bentuk energi yang berpindah dari satu benda ke benda lainnya. Proses perpindahan kalor ini terjadi ketika ada perbedaan suhu antara dua benda. Kalor akan selalu mengalir dari benda yang memiliki suhu lebih tinggi ke benda yang bersuhu lebih rendah. Perpindahan ini akan terus berlangsung sampai kedua benda mencapai kesetimbangan termal, yaitu keadaan di mana kedua benda memiliki suhu yang sama.</p>
+        
+        <h2>Pengaruh Kalor terhadap Materi</h2>
+        <p>Kalor memiliki kemampuan untuk mengubah suhu dan keadaan materi. Misalnya, ketika air dipanaskan, suhunya akan naik hingga mencapai titik didihnya. Pada titik ini, air akan berubah dari bentuk cair menjadi uap melalui proses penguapan. Sebaliknya, pendinginan dapat menyebabkan uap air mengembun menjadi cairan dan akhirnya membeku menjadi es jika terus didinginkan. Proses ini menunjukkan bahwa kalor dapat mengubah keadaan materi dari padat ke cair, cair ke gas, dan sebaliknya.</p>
+        
+        <h2>Satuan Pengukuran Kalor</h2>
+        <p>Kalor dapat diukur menggunakan beberapa satuan energi, seperti joule (J) dan kalori (cal). Satu kalori didefinisikan sebagai jumlah energi yang diperlukan untuk menaikkan suhu 1 gram air sebesar 1 derajat Celsius. Dalam sistem internasional, satuan yang lebih umum digunakan adalah joule, di mana 1 kalori setara dengan sekitar 4,184 joule. Pengukuran kalor sangat penting dalam berbagai aplikasi, termasuk dalam penghitungan energi makanan, proses industri, dan penelitian ilmiah.</p>
+        
+        <h2>Mekanisme Transfer Kalor</h2>
+        <p>Transfer kalor dapat terjadi melalui tiga mekanisme utama, yaitu konduksi, konveksi, dan radiasi.</p>
+        <ol>
+            <li><strong>Konduksi</strong> adalah proses perpindahan kalor melalui kontak langsung antara molekul-molekul. Contohnya adalah ketika Anda memegang ujung logam yang satu, ujung lainnya akan menjadi panas karena kalor berpindah melalui logam.</li>
+            <li><strong>Konveksi</strong> terjadi dalam fluida (cairan dan gas) di mana molekul-molekul yang lebih panas bergerak dari satu tempat ke tempat lain, membawa kalor bersama mereka. Contohnya adalah aliran udara panas di atas radiator yang memanaskan ruangan.</li>
+            <li><strong>Radiasi</strong> adalah transfer kalor melalui gelombang elektromagnetik, seperti sinar matahari yang memanaskan bumi. Radiasi tidak memerlukan medium untuk berpindah, sehingga dapat terjadi di ruang hampa.</li>
+        </ol>
+        
+        <h2>Pentingnya Kalor dalam Ilmu Fisika dan Kimia</h2>
+        <p>Kalor adalah konsep yang sangat penting dalam ilmu fisika dan kimia, karena mempengaruhi banyak aspek kehidupan sehari-hari. Misalnya, dalam memasak, kita menggunakan kalor untuk mengubah bahan mentah menjadi makanan yang matang. Dalam industri, kalor digunakan dalam berbagai proses seperti peleburan logam, produksi energi, dan pendinginan mesin. Selain itu, dalam ilmu lingkungan, pemahaman tentang transfer kalor penting untuk mempelajari perubahan iklim dan fenomena atmosfer.</p>
+        
+        <p>Secara keseluruhan, kalor adalah salah satu bentuk energi yang esensial dalam berbagai proses alamiah dan teknologi. Memahami bagaimana kalor bekerja dan bagaimana ia berpindah sangat penting untuk berbagai aplikasi praktis dan pengembangan ilmu pengetahuan.</p>
+    </div>
+
+    <div id="kuis" class="page floating-box">
+        <h1>Kuis</h1>
+        <form id="quizForm">
+            <p>1. Apa yang dimaksud dengan kalor?</p>
+            <label>
+                <input type="radio" name="q1" value="Energi yang berpindah dari benda yang bersuhu lebih tinggi ke benda yang bersuhu lebih rendah"> Energi yang berpindah dari benda yang bersuhu lebih tinggi ke benda yang bersuhu lebih rendah
+            </label><br>
+            <label>
+                <input type="radio" name="q1" value="Zat kimia"> Zat kimia
+            </label><br>
+            <label>
+                <input type="radio" name="q1" value="Jenis gas"> Jenis gas
+            </label><br><br>
+
+            <p>2. Bagaimana proses transfer kalor saat pemanasan air?</p>
+            <label>
+                <input type="radio" name="q2" value="Air mendidih dan berubah menjadi uap"> Air mendidih dan berubah menjadi uap
+            </label><br>
+            <label>
+                <input type="radio" name="q2" value="Penggunaan oven"> Penggunaan oven
+            </label><br>
+            <label>
+                <input type="radio" name="q2" value="Perpindahan panas melalui materi yang menyentuh"> Perpindahan panas melalui materi yang menyentuh
+            </label><br><br>
+
+            <p>3. Apa satuan untuk mengukur kalor?</p>
+            <label>
+                <input type="radio" name="q3" value="Newton"> Newton
+            </label><br>
+            <label>
+                <input type="radio" name="q3" value="Joule"> Joule
+            </label><br>
+            <label>
+                <input type="radio" name="q3" value="Meter"> Meter
+            </label><br><br>
+
+            <p>4. Apa yang dimaksud dengan konduksi dalam transfer kalor?</p>
+            <label>
+                <input type="radio" name="q4" value="Perpindahan panas melalui gelombang elektromagnetik"> Perpindahan panas melalui gelombang elektromagnetik
+            </label><br>
+            <label>
+                <input type="radio" name="q4" value="Perpindahan panas melalui aliran massa fluida"> Perpindahan panas melalui aliran massa fluida
+            </label><br>
+            <label>
+                <input type="radio" name="q4" value="Perpindahan panas melalui materi yang menyentuh"> Perpindahan panas melalui materi yang menyentuh
+            </label><br><br>
+
+            <p>5. Berikan contoh aplikasi praktis dari transfer kalor melalui radiasi.</p>
+            <label>
+                <input type="radio" name="q5" value="Pemanas listrik"> Pemanas listrik
+            </label><br>
+            <label>
+                <input type="radio" name="q5" value="Pemanas air"> Pemanas air
+            </label><br>
+            <label>
+                <input type="radio" name="q5" value="Penggunaan oven"> Penggunaan oven
+            </label><br><br>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+    </div>
+
+    <div id="result" class="page floating-box">
+        <h1>Hasil Kuis</h1>
+        <p id="quizResult"></p>
+        <button onclick="showPage('kuis')">Coba Lagi</button>
+        <button onclick="showPage('home')">Kembali ke Halaman Utama</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
